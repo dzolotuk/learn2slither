@@ -1,0 +1,28 @@
+BOARD_SIZE = 10
+
+EMPTY = 0
+
+GREEN_APPLE = 1
+RED_APPLE = 2
+
+SNAKE_HEAD = 3
+SNAKE_BODY = 4
+
+UP = "UP"
+DOWN = "DOWN"
+LEFT = "LEFT"
+RIGHT = "RIGHT"
+
+DIRECTIONS = {
+    UP: (-1, 0),
+    DOWN: (1, 0),
+    LEFT: (0, -1),
+    RIGHT: (0, 1),
+}
+
+OPPOSITE = {
+    UP: DOWN,
+    DOWN: UP,
+    LEFT: RIGHT,
+    RIGHT: LEFT,
+}
